@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# SPDT_switch
+#
+DEF SPDT_switch U 0 40 Y Y 1 F N
+F0 "U" 0 250 39 H V C CNN
+F1 "SPDT_switch" 0 325 39 H V C CNN
+F2 "" 100 175 39 V I C CNN
+F3 "" 100 175 39 V I C CNN
+DRAW
+S -50 225 -175 275 0 1 0 N
+S 200 0 -200 225 0 1 0 N
+X ONE 1 -150 -200 197 U 39 39 1 1 I
+X COMM 2 0 -200 197 U 39 39 1 1 I
+X TWO 3 150 -200 197 U 39 39 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

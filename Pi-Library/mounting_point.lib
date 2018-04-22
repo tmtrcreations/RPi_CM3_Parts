@@ -1,0 +1,17 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Mounting_Point
+#
+DEF ~Mounting_Point U 0 40 Y Y 1 F N
+F0 "U" 0 -100 60 H I C CNN
+F1 "Mounting_Point" 0 100 60 H I C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+C 0 0 35 0 1 0 N
+X ~ 1 0 0 59 U 39 39 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

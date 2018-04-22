@@ -1,0 +1,18 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Test_Point
+#
+DEF ~Test_Point PP 0 40 Y Y 1 F N
+F0 "PP" 75 0 28 H V C CNN
+F1 "Test_Point" 0 125 60 H I C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -25 25 25 -25 0 1 0 N
+P 5 0 1 0 0 25 -25 0 0 -25 25 0 0 25 N
+X ~ ~ 0 -75 59 U 39 39 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
